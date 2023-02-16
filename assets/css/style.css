@@ -1,0 +1,39 @@
+/* navbar  */
+.navbar a:hover{
+    background: #fff;
+}
+
+
+/* slider  */
+.carousel-inner .carousel-caption{
+    bottom: 100px;
+    padding-right: 350px;
+}
+.carousel-caption h2{
+    font-size: 2rem;
+
+}
+.carousel-inner .carousel-caption button{
+    background: black;
+    color: white;
+    padding: .5rem 2rem;
+}
+@media only screen and (max-width:502px){
+.carousel-inner .carousel-caption button{
+        background: black;
+        color: white;
+        padding: .5rem 2rem;
+    }   
+.carousel-inner .carousel-caption h2{
+    font-weight: .5rem;
+}
+.carousel-inner .carousel-caption{
+    font-weight: .1rem;
+}
+}
+
+
+
+
+
+
